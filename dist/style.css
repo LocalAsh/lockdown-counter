@@ -15,7 +15,6 @@ body {
     position: relative;
     top: 60px;
     color: #fff;
-    position: relative;
 }
 
 .lockdown-counter__header {
@@ -26,7 +25,6 @@ body {
 
 .lockdown-counter__level-text {
     font-size: 1.6rem;
-    border-radius: 2px;
     display: inline-block;
     margin-top: 0;
     padding: 5px 20px;
@@ -34,7 +32,6 @@ body {
 
 .lockdown-counter__number-of-days {
     display: inline-block;
-    border-radius: 2px;
     margin: 0 auto;
     padding: 0 20px;
 }
