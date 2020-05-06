@@ -1,0 +1,23 @@
+{
+  "name": "lockdown-counter",
+  "version": "1.0.0",
+  "description": "Number of days since the lockdown has started in SA.",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LocalAsh/lockdown-counter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LocalAsh/lockdown-counter/issues"
+  },
+  "homepage": "https://localash.github.io/lockdown-counter",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
