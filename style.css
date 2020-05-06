@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: lightblue;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+.lockdown-counter {
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 60px;
+    color: #fff;
+    position: relative;
+}
+
+.lockdown-counter__header {
+    font-size: 1rem;
+    display: inline-block;
+    padding: 5px;
+}
+
+.lockdown-counter__level-text {
+    font-size: 1.6rem;
+    border-radius: 2px;
+    /* border: 3px solid rgb(33, 55, 33); */
+    display: inline-block;
+    margin-top: 0;
+    padding: 5px 20px;
+}
+
+.lockdown-counter__number-of-days {
+    display: inline-block;
+    border-radius: 2px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.level {
+    color: #155b15;
+}
+
+#days {
+    text-decoration: none;
+    color: #155b15;
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+#start_date {
+    font-size: 0.8rem;
+}
+
+#today_date {
+    font-size: 0.8rem;
+}
